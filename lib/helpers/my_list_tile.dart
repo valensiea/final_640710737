@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyListTile extends StatelessWidget {
+  final String id;
   final String title;
   final String subtitle;
   final String imageUrl;
@@ -9,6 +10,7 @@ class MyListTile extends StatelessWidget {
 
   const MyListTile({
     super.key,
+    required this.id,
     required this.title,
     required this.subtitle,
     required this.imageUrl,
